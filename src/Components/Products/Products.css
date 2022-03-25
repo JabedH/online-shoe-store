@@ -1,0 +1,11 @@
+.products {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main-cart {
+  background-color: #ffe1b5;
+}

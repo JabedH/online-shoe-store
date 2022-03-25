@@ -1,0 +1,37 @@
+.singleProduct {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  /* align-content: center; */
+  gap: 5px;
+  position: relative;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding-bottom: 40px;
+  clip-path: polygon(15% 0%, 100% 0, 100% 100%, 85% 100%, 0 100%, 0% 10%);
+  border-radius: 0 0 10px 10px;
+}
+
+.singleProduct img {
+  clip-path: polygon(15% 0%, 100% 0, 100% 90%, 85% 100%, 0 100%, 0% 10%);
+  width: 90%;
+  padding: 10px;
+}
+.addtocart {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  border: 0;
+  border-radius: 0 0 10px 10px;
+  background-color: #ed475f;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.addtocart p {
+  margin-right: 5px;
+}
+.addtocart:hover {
+  background-color: tomato;
+}

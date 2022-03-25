@@ -1,0 +1,16 @@
+.text {
+  text-align: left;
+  padding-left: 20px;
+}
+.cart {
+  color: #2a414f;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 40px;
+  position: sticky;
+  top: 0;
+}
+.cart h1 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
