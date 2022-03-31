@@ -5,6 +5,7 @@ import "../Shop/Shop";
 import Product from "../Product/Product";
 import { addToDb, getStoreCart } from "../AddToLocal/LocalStore";
 import UseProduct from "../hooks/UseProduct";
+import { Link } from "react-router-dom";
 
 const Shop = () => {
   const [products, setProducts] = UseProduct();
@@ -57,7 +58,11 @@ const Shop = () => {
         ))}
       </div>
       <div className="main-cart">
-        <Cart cart={cart} />
+        <Cart cart={cart}>
+          <Link to="Order">
+            <button> Review Orders </button>
+          </Link>
+        </Cart>
       </div>
     </div>
   );

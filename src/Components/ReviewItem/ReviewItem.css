@@ -5,6 +5,8 @@
   border-radius: 8px;
   margin-top: 21px;
   display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .review-Item img {
@@ -15,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
 }
 .review-item-details {
   text-align: left;
@@ -38,4 +41,6 @@
 .delete-icon {
   color: rgba(235, 87, 87, 1);
   font-size: 27px;
+}
+.delete-container {
 }
