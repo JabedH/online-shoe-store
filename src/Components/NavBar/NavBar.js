@@ -8,9 +8,11 @@ const NavBar = () => {
     <div className="navbar">
       <h1>Online Shoe Store</h1>
       <div className="navbar-item">
-        <a href="">Order</a>
-        <a href="">Manage Inventory</a>
-        <a href="#">
+        <a href="/">Shop</a>
+        <a href="Order">Order</a>
+        <a href="Inventory">Inventory</a>
+        <a href="About">About</a>
+        <a href="/">
           {" "}
           <FontAwesomeIcon icon={faShoppingCart} />{" "}
         </a>

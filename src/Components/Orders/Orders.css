@@ -1,0 +1,4 @@
+.review-Item-container {
+  display: grid;
+  justify-items: center;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "LG Gram ",
+    "price": 1299,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/1.jpg",
+    "Processor": "Intel CORE i7",
+    "RAM": "16GB"
+  },
+  {
+    "id": "2",
+    "name": "HP Stream",
+    "price": 219,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/2.jpg",
+    "Processor": "Intel Celeron N4000 Dual-Core",
+    "RAM": "16GB"
+  },
+  {
+    "id": "3",
+    "name": "Apple MacBook",
+    "price": 966,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/3.jpg",
+    "Processor": "Apple M1 Chip",
+    "RAM": "8GB"
+  },
+  {
+    "id": "4",
+    "name": "Acer Chromebook Spin",
+    "price": 1296,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/4.jpg",
+    "Processor": "Intel Celeron N4020",
+    "RAM": "4GB"
+  },
+  {
+    "id": "5",
+    "name": "Lenovo Chromebook S330",
+    "price": 560,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/5.jpg",
+    "Processor": "Mediatek MT8173C",
+    "RAM": "4GB"
+  },
+  {
+    "id": "6",
+    "name": "Samsung Electronics Galaxy Book",
+    "price": 790,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/6.jpg",
+    "Processor": "Intel CORE i7",
+    "RAM": "16GB"
+  },
+  {
+    "id": "7",
+    "name": "Acer Predator Helios",
+    "price": 610,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/7.jpg",
+    "Processor": "Intel CORE i7",
+    "RAM": "8GB"
+  },
+  {
+    "id": "8",
+    "name": "MSI Stealth GS77",
+    "price": 4629,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/8.jpg",
+    "Processor": "Intel CORE i7-12700H",
+    "RAM": "64GB"
+  },
+  {
+    "id": "9",
+    "name": "ASUS VivoBook Flip",
+    "price": 399,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/9.jpg",
+    "Processor": "Intel Core i3",
+    "RAM": "4GB"
+  },
+  {
+    "id": "10",
+    "name": "LG Gram 14T90P",
+    "price": 1396,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/10.jpg",
+    "Processor": "Intel CORE i7",
+    "RAM": "8GB"
+  },
+  {
+    "id": "11",
+    "name": "Dell Chromebook",
+    "price": 100,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/11.jpg",
+    "Processor": "Intel Celeron 2955U",
+    "RAM": "2GB"
+  },
+  {
+    "id": "12",
+    "name": "MSI GL66 Gaming Laptop",
+    "price": 1259,
+    "img": "https://raw.githubusercontent.com/JabedH/laptop-img/main/img/12.jpg",
+    "Processor": "Intel CORE i7",
+    "RAM": "16GB"
+  }
+]

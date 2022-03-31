@@ -6,10 +6,11 @@ const Cart = (props) => {
   //   const { price, tax, shipping } = props.cart;
   let total = 0;
   let shipping = 0;
-  for (const item of cart) {
-    console.log(item);
-    total = total + item.price;
-    shipping = shipping + item.shipping;
+  let quantity = 0;
+  for (const product of cart) {
+    quantity = quantity + product.quantity;
+    total = total + product.price * product.quantity;
+    shipping = shipping + product.shipping;
   }
   const tex = Number(parseFloat(total * 0.1).toFixed(2));
   console.log(tex);
@@ -19,7 +20,7 @@ const Cart = (props) => {
     <div className="cart">
       <h1>Order Summary</h1>
       <div className="text">
-        <p>Selected Items: {cart.length}</p>
+        <p>Selected Items: {quantity}</p>
         <p>Total Price: $ {total}</p>
         <p>Total Shipping Charge: ${shipping}</p>
         <p>Tax: $ {tex}</p>
