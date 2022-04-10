@@ -14,9 +14,9 @@ const NavBar = () => {
         <Link to="Inventory">Inventory</Link>
         <Link to="About">About</Link>
         <Link to="/">
-          {" "}
           <FontAwesomeIcon icon={faShoppingCart} />{" "}
         </Link>
+        <Link to="Login"> Login</Link>
       </div>
     </div>
   );

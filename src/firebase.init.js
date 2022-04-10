@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDQU68BVAQosk-JC7xf2Odm7rdwtKKrXaA",
-  authDomain: "online-shoe-ema-john.firebaseapp.com",
-  projectId: "online-shoe-ema-john",
-  storageBucket: "online-shoe-ema-john.appspot.com",
-  messagingSenderId: "412326355207",
-  appId: "1:412326355207:web:2866aba65d77fc04baa5a2",
+  apiKey: "AIzaSyA-ll2B-YkhjaXVKTsBe1U-tk2eE_F6j4A",
+  authDomain: "online-shoe-ema-john2.firebaseapp.com",
+  projectId: "online-shoe-ema-john2",
+  storageBucket: "online-shoe-ema-john2.appspot.com",
+  messagingSenderId: "199863546150",
+  appId: "1:199863546150:web:7d34a5770413f327d6d1e7",
 };
 
 // Initialize Firebase
