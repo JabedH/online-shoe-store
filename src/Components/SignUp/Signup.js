@@ -18,15 +18,12 @@ const Signup = () => {
   const navigate = useNavigate();
   const handleEmail = (event) => {
     setEmail(event.target.value);
-    console.log(event.target.value);
   };
   const handlePassword = (event) => {
     setPassword(event.target.value);
-    console.log(event.target.value);
   };
   const handleConfirmPass = (event) => {
     setConfirmPss(event.target.value);
-    console.log(event.target.value);
   };
 
   if (user) {

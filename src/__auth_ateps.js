@@ -12,6 +12,14 @@
  * 11. set createUserWithEmailAndPassword(email, password) in submit handler.
  * 12. and set if condition for changing navigation  navigate("/");
  * 13. useSignInWithEmailAndPassword for sign in
+ * require auth
+ * 14. set children , useAuthState and  useLocation
+ * 15. set conditione to change location and return children
+ * come back to previous page
+ * 16. set {const location = useLocation(); const from = location?.state?.from?.pathname || "/";}
+ * 17. change to condition in login section [if (user) {navigate(from, { replace: true });}]
+ * 18. set logout button with condition in Navbar and set signOut(auth) in signoutHandle
+ * 19 set shipping information
  */
 
 /** hosting
